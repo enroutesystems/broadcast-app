@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jubaan/chat-app/issues"
   },
-  "homepage": "https://github.com/jubaan/chat-app#readme"
+  "homepage": "https://github.com/jubaan/chat-app#readme",
+  "dependencies": {
+    "socket.io": "^3.0.4"
+  }
 }
