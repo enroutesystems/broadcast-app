@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <title>Broadcast</title>
+</head>
+<body>
+<ul class="pages">
+    <li class="chat page">
+      <div class="messenger-container">
+        <div class="contacts-container">
+          <h2 class="brand"><i class="far fa-comment-dots"></i> broadcast </h2>
+          <ul class="contacts">
+          </ul>
+        </div>
+        <div class="messages-container">
+          <ul class="messages">
+          </ul>
+          <div class="input" autocomplete="off">
+            <input class="inputMessage" type="text" name="" autocomplete="off" autofocus>
+            <a class="send" href=""><i class="fas fa-paper-plane"></i></a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="login page">
+      <div class="blur"></div>
+      <div class="form">
+        <h2 class="brand"><i class="far fa-comment-dots"></i> broadcast </h2>
+        <h3 class="title">Write your user name.</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
